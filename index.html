@@ -1,0 +1,226 @@
+<!DOCTYPE html><!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+
+#backBox {
+  float:left;
+
+  margin-top: 50px;
+
+  text-align: center;
+
+  border: 4px solid white;
+  border-radius: 25px;
+
+  padding: 5px;
+  background-color: blue;
+  color:white;
+}
+
+.label{
+
+  margin:auto;
+
+  text-align:center;
+
+  font-size: 150%;
+  width: 25%;
+  height:40px;
+}
+
+  #labelBox {
+    float:right;
+    text-align: center;
+
+    border: 2px solid black;
+    border-radius: 25px;
+
+    padding: 5px;
+    background-color: white;
+    color:black;
+}
+
+#myProgress {
+  width: 100%;
+  background-color: white;
+  border: 4px solid black;
+  text-align: center;
+  border-radius: 25px;
+  color: black;
+  display: none;
+  margin-top: 10px;
+}
+
+#myBar {
+  width: 0%;
+  height: 30px;
+  background-color: yellow;
+  border: 4px solid black;
+  border-radius: 25px;
+}
+
+
+
+.test{
+  margin:auto;
+margin-top: 20px;
+  text-align:center;
+
+
+  font-size: 150%;
+  width: 25%;
+  height:100px;
+
+}
+
+
+.center {
+  float:clear;
+  margin:auto;
+  width:50%;
+  margin-top: 30px;
+
+  text-align: center;
+
+
+
+  border: 4px solid white;
+  border-radius: 25px;
+
+  padding: 40px;
+  background-color: red;
+  color:white;
+
+}
+
+.centerDiv {
+  float:clear;
+  margin:auto;
+  width:10%;
+
+  width: 150px;
+  height: 150px;
+  border: 4px solid blue;
+  border-radius: 125px;
+}
+
+
+.imgbox {
+
+  float:clear;
+  margin:auto;
+  width:10%;
+  margin-top: 20px;
+  margin-bottom: 10px
+
+
+  text-align: center;
+  font-size: 150%;
+  width: 150px;
+  height: 150px;
+  border: 4px solid black;
+  border-radius: 125px;
+
+  background-color: yellow;
+  color: black;
+
+  padding: 6px;
+
+
+}
+
+
+
+
+
+.imgbox2 {
+
+  float: clear;
+  margin:auto;
+  margin-top:90px;
+  text-align: center;
+  background-color: black;
+  color: white;
+
+
+  font-size: 150%;
+  width: 25%;
+  height:200px;
+  border: 4px solid white;
+  border-radius: 25px;
+
+  padding-top: 36px ;
+}
+
+.imgbox3 {
+
+  float: clear;
+  margin:auto;
+  margin-top: 20px;
+  text-align: center;
+  background-color: red;
+  color: white;
+
+
+  font-size: 150%;
+  width: 25%;
+  height:200px;
+  border: 4px solid white;
+  border-radius: 25px;
+
+  padding-top: 36px ;
+}
+
+
+
+.body {
+  background-color: grey;
+}
+
+
+
+</style>
+</head>
+
+
+<body class = "body">
+<div >
+  <div><button  id = "backBox"  onclick="restartGame()"><--BACK!</button></div>
+<h1 class="center">Quick Tricklation - Fourth Declension Noun Forms!</h1>
+</div>
+
+<div id="myProgress">
+  <div id="myBar">Progress Bar</div>
+</div>
+
+
+
+<p class="test">
+<button class = "imgbox" id = "box1"   onclick="startGame()">Start!</button>
+
+<button class = "imgbox" id = "box2"  onclick="giveAnswerOne()">Click for Trick!</button>
+</p>
+
+<p class = "imgbox2" id="latin"></p>
+
+<p class = "imgbox3" id="trans"></p>
+
+
+
+
+
+<script src = "quickClickTempArrayMain4.js" type="text/javascript">
+
+
+</script>
+
+
+
+</body>
+
+</html>
